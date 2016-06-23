@@ -1,9 +1,8 @@
 #exo .bg-cont {
     background-color: white;
-/*    overflow: hidden;*/
+    overflow: hidden;
 }
 .start, .limitG, .bg1 {
-/*  background: url(spriteSonicfullf.png) repeat-x;*/
   position: relative;
 }
 .start {
@@ -29,17 +28,25 @@
   background-size: 1000px 242px;
 }
 .grndlimitG {
-  background-color: green;
   position: absolute;
   top: 426px;
-  left: 33px;
-  width: 300px;
+  left: -33px;
+  width: 85px;
   height: 40px;
 }
 .colimitG {
   position: absolute;
   top: 350px;
-  left: -66px;
+  /*left: -282px;*/
+  left: -45vh;
+  width: 100px;
+  height: 100px;
+}
+.firstcolG {
+  position: absolute;
+  top: 397px;
+/*  left: 116px;*/
+  left: 5vh;
   width: 100px;
   height: 100px;
 }
@@ -50,20 +57,27 @@
   height: 120px;
 }
 .startGround {
-/*  background-color: green;*/
   position: absolute;
-  top: 280px;
-  left: 960px;
+  top: 325px;
+/*  left: 1960px;*/
+  left: 95vh;
   width: 400px;
   height: 120px;
 }
-.bg1Ground {
-/*  background-color: green;*/
+.startSlopeR {
   position: absolute;
-  top: 330px;
-  left: 1334px;
-  width: 150px;
+  top: 340px;
+  left: 165vh;
+  width: 690px;
   height: 120px;
+}
+/*inutile pour le moment*/
+.bg1Ground {
+/*  position: absolute;
+  top: 330px;
+  left: 250vh;
+  width: 145px;
+  height: 120px;*/
 }
 .wrapper {
   width: 65px;
@@ -78,9 +92,9 @@
   width: 65px;
 	height: 70px;
   top: -4px;
-  left: 320px;
   animation: sonic .8s steps(8) infinite;
 }
+
 @keyframes sonic {
   100% { background-position: -520px 0; }
 }
@@ -90,7 +104,7 @@
 }
 @keyframes jump {
   from { background-position: 0 32.9%;
-         transform: translateY(0px); }
+  transform: translateY(0px);}
   to { background-position: -585px 32.9%;
-       transform: translateY(-100px); }
-}
+  transform: translateY(-100px);}
+};
