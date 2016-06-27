@@ -166,12 +166,12 @@ $(document).ready(function() {
 					$(".startGround").css("transform", "translateX("+bgRPos+"px)");
 					$(".startSlopeR").css("transform", "translateX("+bgRPos+"px)");
 					$(".bg1Ground").css("transform", "translateX("+bgRPos+"px)");
-					bgRPos -= 2;
+					bgRPos -= 6;
 					bgLPos = bgRPos;
 					if(up)
-						upvec -= .18;
+						upvec -= .48;
 					else if(down)
-						upvec += .28;
+						upvec += 0.58;
 				}
 				break;
 			case 37:
@@ -189,10 +189,10 @@ $(document).ready(function() {
 					$(".startGround").css("transform", "translateX("+bgLPos+"px)");
 					$(".startSlopeR").css("transform", "translateX("+bgLPos+"px)");
 					$(".bg1Ground").css("transform", "translateX("+bgLPos+"px)");
-					bgLPos += 2;
+					bgLPos += 6;
 					bgRPos = bgLPos;
 					if(down)
-						upvec += .18;
+						upvec += 0.38;
 					else if(up)
 						upvec -= .28;
 				}
