@@ -171,7 +171,7 @@ $(document).ready(function() {
 					if(up)
 						upvec -= .48;
 					else if(down)
-						upvec += 0.58;
+						upvec += 0.78;
 				}
 				break;
 			case 37:

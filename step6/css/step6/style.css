@@ -1,3 +1,4 @@
+html, body { max-width: 960px; min-height: 768px; }
 #exo .bg-cont {
     background-color: white;
     overflow: hidden;
@@ -30,21 +31,21 @@
 .grndlimitG {
   position: absolute;
   top: 426px;
-  left: 31px;
+  left: -2px;
   width: 85px;
   height: 40px;
 }
 .colimitG {
   position: absolute;
   top: 350px;
-  left: -41vh;
+  left: -31vh;
   width: 100px;
   height: 100px;
 }
 .firstcolG {
   position: absolute;
   top: 397px;
-  left: 16vh;
+  left: 8vh;
   width: 100px;
   height: 100px;
 }
@@ -64,7 +65,7 @@
 .startSlopeR {
   position: absolute;
   top: 340px;
-  left: 165vh;
+  left: 122vh;
   width: 690px;
   height: 120px;
 }
